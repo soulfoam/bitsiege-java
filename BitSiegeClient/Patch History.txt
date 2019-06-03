@@ -1,0 +1,643 @@
+--TODO:
+- Do art for all buff zones
+- Make Necromancer!
+1. Spawn a small archer skeleton
+2. Heal all your minions
+3. Teleport all minions to you
+4. Upon killing someone with this spell you will revive them and their class/stats as a bot.
+
+- Look into adding CDR to shop
+- Clan system 
+- Make all builds have icons from now on
+
+
+- show ping in escape window
+- Make new shop with minions and shit
+- Look into attack speed buy text turning red in shop when max attack speed
+
+
+
+-- MAKE SURE TO DELETE ALL PROPERTIES FILE
+
+Bit Siege Dev [2D MOBA]  (Weekly Giveaways!) #gamedev #pixelart #programming #java
+
+Bit Siege Dev [2D MOBA]  #gamedev #pixelart #programming #java
+Bit Siege Dev [2D MOBA] (Java) #gamedev #programming
+Bit Siege Dev [2D MOBA] (GameMaker Bundle Giveaway!) #gamedev #pixelart #programming #java
+==========================================   Patch 2.2.3  ===========================================================
+
+----Bug Fixes: 
+--Shop Bugs
+Fixed bug that showed 1 item owned in shop on a fresh account.
+
+==========================================   Patch 2.2.2  ===========================================================
+
+----Bug Fixes: 
+--Critical
+Fixed client crashing bug if people joined and left a game fast enough, the client would crash trying to load a players settings for a player who wasn't there.
+--Lobby Bugs
+Fixed bug that allowed 2 players to play the same class on the same team if they clicked and joined fast enough.
+--Gameplay Bugs
+Fixed bots trying to fight through walls and also trying to fight through crystal. They are a lot smarter now but there's still plenty of room for improvements.
+Fixed knockbacks not working at all. (This make the Knight a lot stronger, as it really helps him defend and push people away from the crystal with his dash!)
+Fixed Warlock teleport sometimes not working at all.
+Fixed Warlock teleport sometimes not allowing teleporting into tight spaces.
+Fixed Void Lords pull not working on allies.
+Fixed shield still rendering on the Void Lord if he was invisible.
+Fixed minimap sometimes not showing enemies, and enemies disappearing randomly.
+
+----Class Changes:
+
+--Void Lord:
+Void Lords "pull" now teleports him to the target as soon as the ability hits, rather than pulling him.
+Void Lords Ultimate "Call To The Void" now does 50 damage and had it's cooldown reduced to 60 seconds.
+Void Lords Void Scream cooldown reduced by 1 second.
+
+
+---General Improvements/Changes
+Map Select default map changed to Random.
+Multiple things have been visually smoothed out, such as the Knights dash.
+Minor network optimization. 
+
+
+==========================================   Patch 2.2  ===========================================================
+
+- Character direction now faces at mouse cursor (not longer use a button to "lock direction").
+- All menus have been redone.
+1. Lobby menu now shows tool tips for abilities and other things.
+
+- Games main resolution changed to be a bit smaller (384x216 to 320x180).
+- All new HUD. The HUD is fully customizable, you can modify everything from position, to scale, to text scale etc.
+- HUD now features a mini map (along with pinging support).
+- Chat is now on screen.
+- All UI basically redone, scoreboard etc.
+- Fixed collision bug with abilities sometimes going through players
+- Fixed sound bug with melee attacks playing globally
+- Fixed bug with two classes being able to be on the same team.
+- Bots now walk diagonally 
+
+
+
+- Kills now give 150 gold and assists 75.
+
+- Stats now cost 200 gold per stat.
+
+- Cleric Holy Restore cooldown increased 22 from 18.
+- Cleric Blinding Light blind time reduced to 2.0 seconds from 4.5 seconds.
+- Cleric Blinding Light cooldown reduced to 12 seconds from 18.
+- Cleric healing auto attack heal increased to 20 from 10.
+
+- Waterqueen Move Speed increased to 1.050 from 1.000
+- Knight Shield Throw damage raised to 40 from 30.
+- Knights Move Speed increased to 1.025 from 1.000
+- Illusionist clones now shoot at her facing direction, so targeting with her clones is way easier.
+- Void lord speed nerf from 1.2 to 1.15.
+
+- Void lord Call To The Void ultimate now drags in enemies faster and is fixed, before it bugged and wouldn't always pull.
+
+==========================================   Patch 2.1.8.3  ===========================================================
+
+- Health orbs are now synced consistently properly.
+- Health orbs should always heal now.
+- Mouse cursor enabled.
+- Fixed ending up outside the map with certain glitches.
+- All screen tearing SHOULD be fixed.
+- Fixed Void Lord pull, pulling to people after they die.
+- Fixed occasional crash when rejoining a game.
+- Fixed warlock teleport sometimes going on cooldown when you didn't teleport (Only occured over latency).
+- Fixed enemy knight bot spinning animation.
+- Void Eye and Dragon monsters health lowered to 3000
+- Crystals dropped from big monsters now worth 100 points rather than 50.
+- Fixed a lot of potentional bugs with many abilities. (Things like CC, being able to walk on water as waterqueen without ult, etc)
+- Fixed HP rendering as 0 and still being alive.
+- Fixed lobby being able to pick any class even if its selected
+- Fixed team HUD visual bug that showed a dead team mate with little HP even though they were dead.
+
+==========================================   Patch 2.1.7   ===========================================================
+
+Added screenshake upon being stunned. 
+Under latency sometimes recall animation wouldn't work, that's been fixed.
+Under latency sometimes abilities weren't making it back to the client (made adding ablities reliable on both ends instead of just one way)
+Fixed issue with player dropped health orbs in dedicated server mode.
+Fixed crystal rendering bug (a small black line would appear next to it when it was being carried).
+Fixed voidlord pull sending to 0,0 sometimes leading to death, even on your own teammates. This was produced by going to a teammate/enemy who is completely still, lining up with them and then casting the pull.
+Fixed back button in team select taking you to server list if you were logged into multiplayer but attempting to back out of single player.
+
+
+
+==========================================   Patch 2.0   ===========================================================
+
+- Crystal objective art changed.
+
+- Crystal holder art changed.
+
+- Rubble tiles art changed. (Land rubble, water rubble, normal rubble).
+
+- New flower type added.
+
+- Particles are now centered to whatever they are emitting from, and are also now spread out in all directions more (instead of basically just bottom right and top left).
+
+------------------------Bug Fixes------------------------
+
+- Fixed visual bug with chat text being made really big when having the map up at the same time.
+
+- Fixed a bug where a health orb could heal two players if they picked it up at the same time.
+
+- Fixed warlocks facing right auto attack start position.
+
+---------------------------------------------------------
+
+==========================================   Patch 1.6.2   ===========================================================
+
+- Hotfix for the same issue as last hotfix, except this time with players. Fixed a bug with players leaving while they had the crystal held that prevented anyone from picking it up.
+
+- (Misc) Water direction now flows up if the crystal has spawned top, and flows down if the crystal spawned bottom.
+
+==========================================   Patch 1.6.1   ===========================================================
+
+- Quick hotfix where when a real player joined in VERY RARE CASES (this glitch only has happened once, and it was just now but I see how the function could break) it would replace the bot that was holding the crystal, which lead to players and bots not being able to pick up the Main Crystal, basically breaking the game.
+
+==========================================   Patch 1.6   ===========================================================
+
+---------------------New Additions-----------------------
+
+- Skins have been added! Choose them from the class select menu! Simply press the arrows to cycle through skins.
+
+- Slows have been added! There were only stuns and blinds as forms of CC, now there are slows.
+
+- You can now spectate your team mates while you're dead! Simply left click while you are dead to cycle spectating through your team mates.
+
+- Added rendering layers with abilities so that certain abilities always render on top of others. A problem for example was with Cleric heal covering up/hiding a lot of abilities.
+
+
+-- Added new class: Water Queen
+
+Spell 1 - Tidal Wave: Damages all enemies the wave passes through for 50 damage.
+Cooldown: 5 seconds.
+
+Spell 2 - Water Blast: Damages enemy for 20 damage and slows them by 0.5 for 2.0 seconds.
+Cooldown: 11 seconds.
+
+Spell 3 - Absorb: Absorbs all damage taken for 2.5 seconds and heals self for 3 health per hit taken.
+Cooldown: 24 seconds.
+
+Spell 4 - Water Walk: Allows walking on water for 20 seconds and heals 5 health per second on water. When the timer runs out you take 10 damage per second until your off the water.
+Cooldown: 90 seconds.
+
+
+---------------------------------------------------------
+
+
+--------------------Gameplay Changes---------------------
+
+- Win amount reduced to 300 from 400.
+
+- Player health orbs dropped upon death are now removed after 20 seconds.
+
+- Bots now are smarter to choose which crystal holder to capture the crystal in when they have the crystal.
+
+- Warlock Storm duration reduced to 10 seconds from 17.
+
+- Warlock Storm damage decreased to 4 from 6 (per storm bit).
+
+- Warlock Storm cooldown increased to 95 seconds from 60.
+
+- Warlock health/max-health lowered to 300 from 350.
+
+- Voidlord AOE Void Scream damage increased from 90 over 6 seconds to 135 over 6 seconds.
+
+- Voidlord Portal ultimate cooldown increased to 75 seconds from 60.
+
+- Cleric healing auto attacks movespeed increased to 3.5 from 2.9.
+
+- Archer fire arrow distance has been lowered and now is destroyed after 3 seconds from 8 seconds.
+
+- Middle river now has a small bridge going over it.
+
+---------------------------------------------------------
+
+
+------------------------Bug Fixes------------------------
+
+- Fixed a bug where sometimes abilities weren't being removed on the client side randomly (so it'd appear to hit someone and just continue to go through them, even though damage etc was being dealt as normal).
+
+- Fixed a bug where if a real player left through the escape menu hitting the leave game button instead of closing with the game windows X button, it took several seconds to actually disconnect them from the game.
+
+- Fixed a bug with team placement where sometimes real players would be placed on the same team instead of the opposing team, sometimes resulting in one team being nothing but bots.
+
+- Fixed another bug with the bots where instead of the game freezing (which was fixed in last hotfix patch) the game would lag for a little bit. (This actually only happened ONE TIME out of 15 games but I found the root of the problem so it shouldn't happen ever now).
+
+- Fixed a bug with bots getting stuck on corners sometimes.
+
+- Fixed a bug with bots attacking enemy sub crystals. If the enemy had more than 1 crystal captured, the bots would destroy a captured crystal, but continue attacking the destroyed crystal instead of repathing to the new holder that had a crystal in it.
+
+- Fixed a bug where you had to be connected to the internet for the menus to even appear. (You can now select single player if you aren't connected to the internet).
+
+- Fixed a bug with the Illusionist where her swap wasn't working properly.
+
+- Fixed a bug where a bot leaving message would take priority over a real player joining.
+
+- Fixed a bug with the Voidlords pull ability not destroying when pulling to team mates.
+
+- Fixed a bug with the Voidlords pull ability sometimes getting Voidlord players and Voidlord bots stuck in the wall.
+
+- Fixed a bug with the Voidlords pull ability pulling to dead players.
+
+- Fixed a bug with the Voidlords invisibility where if you casted it before the game started it wasn't reset on game start.
+
+- Fixed a bug with the chat where if an ally typed in all chat it would appear red on the chat notification as if it was an enemy.
+
+---------------------------------------------------------
+
+
+----------------------Misc Changes-----------------------
+
+- Art changed for the castle walls and door entrance tiles.
+
+- Water tiles changed, water now also has an animation.
+
+- Flower generation has been turned down significantly. There will be less flowers now, it was a bit "cluttered" looking before and the less flowers compliments the new castle art pretty well.
+
+---------------------------------------------------------
+
+==========================================   Patch 1.5  ===========================================================
+
+---------------------New Additions-----------------------
+
+- Bots have been added! With this addition, there is now only a "Find Game" button. To play, simply click Find Game, if no games are available then you will automatically begin hosting one. 
+(PLEASE NOTE, IF BITSIEGE IS UNABLE TO PORT FORWARD FOR YOU, AND YOU HAVE NOT MANUALLY PORT FORWARDED THE PORT 1331 (UDP), PEOPLE WILL NOT BE ABLE TO FIND YOUR GAME IF YOU BEGIN HOSTING ONE IN THE CASE NO OTHER GAMES ARE AVAILABLE!)
+
+- Singleplayer mode has been added!
+
+- Assists have been added! You will receive an assist for damaging/knocking back/stunning/blinding an enemy, as well as if you buff/heal a team mate who kills an enemy.
+
+---------------------------------------------------------
+
+
+--------------------Gameplay Changes---------------------
+
+- Win amount is now 400 points.
+
+- Decay timer has been upped to 10 seconds from 2.
+
+- Respawn locations are now a bit more spaced out.
+
+---------------------------------------------------------
+
+
+------------------------Bug Fixes------------------------
+
+- Fixed a bug where very rarely the game instance would be created twice, resulting in a blue flickering screen that had double the game loop speed.
+
+- Fixed a bug where on some computers when players were stunned, they weren't appearing white as they should.
+
+- Fixed crystal bug where if more than one person touched the crystal while it was destroyed, everyone touching it would get slowed as if they had the crystal, but only one person actually technically had the crystal.
+
+- Health no longer will go below 0, this didn't effect gameplay but was more of a visual thing.
+
+- Void Lord's black hole ultimate no longer sucks in team mates. 
+
+---------------------------------------------------------
+
+
+----------------------Misc Changes-----------------------
+
+- All Menus redone.
+
+- Game has shrunk from 2.5mb to 368kb.
+
+---------------------------------------------------------
+
+==========================================   Patch 1.4.2   ===========================================================
+
+- Fullscreen mode has been added! 
+
+- In game Escape Options Menu added! (Edit Settings here such as fullscreen mode).
+
+==========================================   Patch 1.4.1.2   ===========================================================
+
+- Added class icon next to player name on the scoreboard.
+
+- Fixed health orb pickup animation.
+
+==========================================   Patch 1.4.1.1   ===========================================================
+
+- Fixed bug where game would not end after it was over.
+
+==========================================   Patch 1.4.1   ===========================================================
+
+
+
+- Game clock now resets when the game starts.
+
+
+
+- Respawn timer increased to 20 seconds from 10.
+
+
+
+- Healing orbs added!
+
+There are 4 small HP orbs at the top and bottom of each side of the map, they heal 25 HP upon pickup. 30 second respawn.
+
+There is 1 big HP orb at the top-middle of the map that heals 50 HP upon pickup. 60 second respawn.
+
+Each time a player dies (ally or enemy), a big healing orb is dropped that heals 75 HP upon pickup, lasts until picked up.
+
+
+
+- Illusionist clones now do 50 damage from 40.
+
+- Illusionist ultimate clones now do 35 damage each from 20.
+
+
+
+==========================================   Patch 1.4    =============================================================
+
+
+
+- Added new class: Void Lord
+
+
+
+Spell 1 - Void Shift: Shift into the void becoming invisible to all enemies for 10 seconds.
+
+Cooldown: 30 seconds.
+
+
+
+Spell 2 - Void Pull: Launches a projectile that pulls you to the first enemy hit. This ability can go through all walls and obstacles.
+
+Cooldown: 7 seconds.
+
+
+
+Spell 3 - Void Scream: Does 90 damage over 6 seconds in a small radius around the player.
+
+Cooldown: 14 seconds.
+
+
+
+Spell 4 - Void Portal: Sucks all enemies in a radius into the center of the portal. Once they reach the center they are stunned for 3 seconds and damaged for 15 damage. Lasts for 10 seconds.
+
+Cooldown: 60 seconds.
+
+
+
+- Knights Helmet art changed.
+
+- Knights HP increased from 450 to 500.
+
+- Knights shield stun lowered to 2 seconds from 3.
+
+- Knights auto attack speed has been lowered slighty.
+
+- Knights auto attack damage has been lowered to 8 from 10.
+
+
+
+- Clerics ult has been reworked:
+
+Holy Might: Revives all dead allies instantly and restores all alive allies health by 40.
+
+Cooldown: 75 seconds.
+
+- Clerics Holy Restore now lasts only 6 seconds from 10.
+
+- Clerics Holy Restore cooldown increased to 18 seconds from 16.
+
+
+
+- Auto Portforwarding is now built right into BitSiege.jar. You will also now be notified right away if the auto portforward failed, so that you can take the proper steps to port forward if you wish to host games.
+
+
+
+- There is now a class select screen instead of just the plain old nasty looking boring buttons.
+
+
+
+- HUD now shows little bars on the left side of the screen that show allies class portrait as well as their health.
+
+
+
+- Fixed a bug where if the game was extremely close, and you won as the other team reaches 100% progress, you would both win and lose.
+
+
+
+
+
+==========================================   Patch 1.3.5.2  =============================================================
+
+
+
+- Hotfix to Crystal fill up and decay bug. Teams points where being decayed even when they had crystals captured.
+
+
+
+==========================================   Patch 1.3.5.1  =============================================================
+
+
+
+- Added particle effect to Archers ultimate so you can now tell when the ability ends.
+
+
+
+- "/capframes" now saves the setting in "bitsiege.properties" so you don't have to type it everytime.
+
+
+
+- Frame rate cap now makes sure FPS doesn't drop below 60, on some machines uncapped frame rate was high (as it should be), but when the frame cap was turned on to save resources, the FPS would hang around 40-45, causing some noticeable choppiness sometimes. 
+
+
+
+- Points needed to win in 1v1's and 2v2's has been lowered.
+
+
+
+- Added visual point display inside of each teams progress bars at the bottom of the screen.
+
+
+
+
+
+============================================   Patch 1.3.5 ==============================================================
+
+
+
+- Patcher has been updated now to automatically update the game and install the new patch. This makes it a lot less annoying to receive new patches, and means I can put out smaller patches and hotfixes way more often whenever they are needed.
+
+
+
+- If there is no update, it will automatically take you to the next menu, instead of having to click "Okay" to acknowledge there was no patch.
+
+
+
+- Added an online user count to the Multiplayer Menus so you can see how many people are currently online. This shows all players online, in a game or not.
+
+
+
+- Added a "/capframes" command. Simply type "/capframes" in the chat, and if your frame rate cap is ON, it will turn it OFF, and vice versa.
+
+
+
+- Clerics ult now removes after 12 seconds but is still toggeable.
+
+
+
+
+
+============================================   Patch 1.3.1.1 ============================================================
+
+
+
+- Bug Fix to login systems.
+
+
+
+============================================   Patch 1.3.1  =============================================================
+
+
+
+
+
+- Added framerate cap, you can edit this in the "bitsiege.properties" file, just open it with any text editor to edit it. (There will be an options menu soon). If you wish to turn the framerate cap off, you can set "capframerate" to "no" from "yes". If you are unaware of what a framerate cap does, I simply don't let the FPS go above 60, which in turn makes Bit Siege use way less of your computers CPU resources. Framerate cap is ENABLED by default.
+
+
+
+- You can now press Escape in game to exit the current game and go back to the main menu.
+
+
+
+- Show Stats (P) is now toggleable.
+
+
+
+- Fixed bug where chat would be extremely zoomed in, making it unreadable whenever the game would end, and in some other cases.
+
+
+
+- Fixed Knights ultimate animation, the effect lasted as normal, but the yellow particle animation continued to play until the player died.
+
+
+
+
+
+============================================   Patch 1.3  =============================================================
+
+
+
+- New bases! Each base now has sub crystal rooms, the last map was to hard for the defending team to stop someone from destroying their sub crystal.
+
+
+
+- Each teams "main crystal" has been removed. Instead, a progress bar for each team is now at the bottom of the screen. Team 0's bar is always on the left, and Team 1's bar is always on the right.
+
+
+
+- Warmup mode has been added. You're no longer just trapped in your base waiting for enough players. Once there are enough players, everyones kills and deaths will reset, and all players will be taken back to their spawn point and the game will start.
+
+
+
+- Camera now stays where you died until you respawn.
+
+
+
+- Fixed a game breaking bug where sometimes when an ability was removed, it would crash the game.
+
+
+
+- Fixed the spacebar locking issue once and for all, it no longer happens in any situation at all.
+
+
+
+- Made the X marking the crystal on the map disappear if someone captures the crystal and there is no crystal currently spawned.
+
+
+
+============================================   Patch 1.2  ==============================================================
+
+
+
+- Added new class: Illusionist
+
+
+
+Spell 1 - Spawn Clone: Spawns a clone on your current position that lasts for 30 seconds.
+
+Cooldown: 4 seconds.
+
+
+
+Spell 2 - Clone Attack: Sends all clones dashing out in their current facing direction dealing 40 damage and stunning the target for 1.5 seconds. Clones disappear after they hit a target.
+
+Cooldown: 4 seconds.
+
+
+
+Spell 3 - Swap Clone: Swaps your position with last placed clone. Swapped clone inherits your facing direction.
+
+Cooldown: 9 seconds.
+
+
+
+Spell 4 - For my next trick...: Spawns 4 clones around you that follow you for 20 seconds. They deal 20 damage each and stun for 2.5 seconds each.
+
+Cooldown: 40 seconds.
+
+
+
+- No longer have to restart the game and login again whenever a game ends.
+
+
+
+- More network optimization.
+
+
+
+- Fixed a bug in which if you joined a game already started, abilities that were casted BEFORE you joined were not appearing.
+
+
+
+- Spell cooldowns now displayed at the top right of the spell tool tip.
+
+
+
+- Scoreboard now shows how many crystals a player has captured.
+
+
+
+- Clerics True Sight is now toggleable and no longer goes away after 12 seconds. Cast it again to turn it off.
+
+
+
+
+
+============================================   Patch 1.1  ==============================================================
+
+
+
+- Map now has a use!
+
+Hold C to view the map and see where your teammates are 
+
+and where the crystal last spawned. 
+
+
+
+You can also see each teams Main Crystals progress bar!
+
+
+
+If the crystal carrier is on your team, their name will be purple
+
+
+
+
+
+- Major networking optimization was done, uses half the bandwidth.
+
+- Fixed an issue with the spacebar sometimes locking direction even if you weren't holding it.
+
+- Fixed names not being centered sometimes.
+
+- Fixed a bug where capturing the crystal would sometimes crash the game

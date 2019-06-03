@@ -1,0 +1,63 @@
+package soulfoam.arenashared.main.abilityinfo;
+
+public class AbilityInfo {
+
+	public static final int NORMAL = 0;
+	public static final int PROJECTILE = 1;
+	public static final int MELEE = 2;
+	public static final int AOE = 3;
+	public static final int FX = 4;
+	public static final int DASH = 5;
+	public static final int DASHSTOPONHIT = 6;
+	
+	public static final int WARLOCKBASICATTACK = 0;
+	public static final int KNIGHTMELEEATTACK = 1;
+	public static final int WARLOCKTOWER = 2;
+	public static final int WARLOCKLIFEDRAIN = 3;
+	public static final int KNIGHTSHIELDTHROW = 4;
+	public static final int WARLOCKSTORM = 5;
+	public static final int KNIGHTINVINCIBLEBUFF = 6;
+	public static final int KNIGHTMELEESPIN = 7;
+	public static final int WARLOCKTELEPORT = 8;
+	public static final int KNIGHTDASH = 9;
+	public static final int ARCHERICEARROWSWITCH = 10;
+	public static final int ARCHERICEARROW = 11;
+	public static final int ARCHERFIREARROWSWITCH = 12;
+	public static final int ARCHERFIREARROW = 13;
+	public static final int ARCHEREXPLODINGARROWSWITCH = 14;
+	public static final int ARCHEREXPLODINGARROW = 15;
+	public static final int ARCHEREXPLOSION = 16;
+	public static final int ARCHERBUFF = 17;
+	public static final int CLERICBASICATTACK = 18;
+	public static final int CLERICHEAL = 19;
+	public static final int CLERICBLIND = 20;
+	public static final int CLERICSWITCH = 21;
+	public static final int CLERICBASICATTACKHEAL = 22;
+	public static final int CLERICTEAMHEAL = 23;
+	public static final int ILLUSIONISTBASICATTACK = 24;
+	public static final int ILLUSIONISTSPAWNCLONE = 25;
+	public static final int ILLUSIONISTCLONEATTACK = 26;
+	public static final int ILLUSIONISTSWAPPOSITION = 27;
+	public static final int ILLUSIONISTREMOTECLONESPAWN = 28;
+	public static final int ILLUSIONISTCLONE = 29;
+	public static final int VOIDLORDMELEEATTACK = 30;
+	public static final int VOIDLORDPULL = 31;
+	public static final int VOIDLORDINVISIBLE = 32;
+	public static final int VOIDLORDAOE = 33;
+	public static final int VOIDLORDHOLE = 34;
+	public static final int WATERQUEENBASICATTACK = 35;
+	public static final int WATERQUEENWATERBALL = 36;
+	public static final int WATERQUEENWAVE = 37;
+	public static final int WATERQUEENABSORB = 38;
+	public static final int WATERQUEENWATERBUFF = 39;
+	public static final int WARLOCKSTORMBIT = 40;
+	public static final int GENERALKNOCKBACK = 41;
+	public static final int SHAMANBUFFTOTEM = 42;
+	public static final int SHAMANBASICATTACK = 43;
+	public static final int SHAMANSHIELDTOTEM = 44;
+	public static final int SHAMANDEBUFFTOTEM = 45;
+	public static final int SHAMANCONFUSETOTEM = 46;
+	public static final int WARLOCKTELEPORTFX = 47;
+	public static final int ILLUSIONISTULTCLONE = 48;
+	public static final int WARLOCKTOWERATTACK = 49;
+}
