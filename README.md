@@ -8,6 +8,8 @@ The rendering uses Slick2D which is a wrapper over OpenGL, which I wouldn't do n
 
 Since project started in 2014, I've learned so much more about gamedev in general, but this project will always have a special place in my heart and maybe one day it will be fully revived.
 
+These screen shots are of newer gameplay (around late 2016 early 2017), but you can [watch an old gameplay trailer](https://www.youtube.com/watch?v=Rh9tfoPhSN0) from 2016 too.
+
 # Screenshots
 
 ![](Screenshots/1.png)
