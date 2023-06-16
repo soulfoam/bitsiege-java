@@ -1,3 +1,6 @@
+## NOTICE, DO NOT VISIT BITSIEGE.COM
+Unforutately I let the domain expire some years ago by not updating my card on file and the domain was renewed by what appears to be a pornography spam site. Sorry :(
+
 # About
 
 This is all legacy code from the original 2014 game. Everything worked pretty well, but this is not the best code I've ever written. The core logic is almost duplicated between client and server, and not in one central place and shared as it should be. 
@@ -6,7 +9,7 @@ Also, since beta had guest accounts to test all systems, the account registering
 
 The rendering uses Slick2D which is a wrapper over OpenGL, which I wouldn't do nowadays, I'd just use straight up OpenGL so I could fully utilize shaders and other stuff. 
 
-Since project started in 2014, I've learned so much more about gamedev in general, but this project will always have a special place in my heart and maybe one day it will be fully revived.
+Since the project started in 2014, I've learned so much more about gamedev in general, but this project will always have a special place in my heart and maybe one day it will be fully revived.
 
 These screen shots are of newer gameplay (around late 2016 early 2017), but you can [watch an old gameplay trailer](https://www.youtube.com/watch?v=Rh9tfoPhSN0) from 2016 too.
 
