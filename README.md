@@ -1,5 +1,5 @@
 ## NOTICE, DO NOT VISIT BITSIEGE.COM
-Unforutately I let the domain expire some years ago by not updating my card on file and the domain was renewed by what appears to be a pornography spam site. Sorry :(
+Unfortunately I let the domain expire some years ago by not updating my card on file and the domain was renewed by what appears to be a pornography spam site. Sorry :(
 
 # About
 
