@@ -1,6 +1,3 @@
-## NOTICE, DO NOT VISIT BITSIEGE.COM
-Unfortunately I let the domain expire some years ago by not updating my card on file and the domain was renewed by what appears to be a pornography spam site. Sorry :(
-
 # About
 
 This is all legacy code from the original 2014 game. Everything worked pretty well, but this is not the best code I've ever written. The core logic is almost duplicated between client and server, and not in one central place and shared as it should be. 
